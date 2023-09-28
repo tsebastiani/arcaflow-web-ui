@@ -1,0 +1,29 @@
+[
+  {
+    "type": "console.page/route",
+    "properties": {
+      "exact": true,
+      "path": "/example",
+      "component": { "$codeRef": "KillPod" }
+    }
+  },
+  {
+    "type": "console.navigation/section",
+    "properties": {
+      "id": "krkn",
+      "insertAfter": "home",
+      "perspective": "admin",
+      "name": "Krkn"
+    }
+  },
+  {
+    "type": "console.navigation/href",
+    "properties": {
+      "id": "killpod",
+      "name": "Kill Pod",
+      "href": "/example",
+      "perspective": "admin",
+      "section": "krkn"
+    }
+  }
+]

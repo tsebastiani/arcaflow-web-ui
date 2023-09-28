@@ -6,6 +6,7 @@ interface UIElement {
     hasElements(): boolean
     getElements(): UIElement[]
     render(): React.ReactElement
+    getId(): string
 }
 
 export default UIElement
